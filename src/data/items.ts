@@ -1,13 +1,13 @@
 import { Item } from '../types/Item';
 export const items: Item[] = [
   {
-    date: new Date(2022, 8, 15),
+    date: new Date(2022, 9, 3),
     category: 'food',
     title: 'Açaí',
     value: 35.5,
   },
   {
-    date: new Date(2022, 8, 15),
+    date: new Date(2022, 8, 3),
     category: 'food',
     title: 'BK',
     value: 20.5,
