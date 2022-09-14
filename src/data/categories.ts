@@ -1,19 +1,19 @@
-import { Category } from "../types/Category";
+import { Category } from '../types/Category';
 
-export const categories = {
+export const categories: Category = {
   food: {
     title: 'Alimentação',
     color: 'blue',
-    expense: true
+    expense: true,
   },
   rent: {
     title: 'Aluguel',
     color: 'brown',
-    expense: true
+    expense: true,
   },
   salary: {
     title: 'Salário',
     color: 'green',
-    expense: true
-  }
-}
+    expense: false,
+  },
+};
