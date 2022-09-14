@@ -54,3 +54,8 @@ export const formatCurrentMonth = (currentMonth: string): string => {
   ];
   return `${monthsInPTBR[parseInt(month) - 1]} de ${year}`;
 };
+
+export const newDateAdjusted = (dateField: string) => {
+  const [year, month, day] = dateField.split('-');
+  return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+};
