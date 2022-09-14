@@ -31,4 +31,5 @@ export const MonthTitle = styled.div`
 
 export const MonthAnalyzer = styled.div`
   flex: 2;
+  display: flex;
 `;
